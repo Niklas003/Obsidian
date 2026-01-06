@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 3/Natural Language Processing/Fragen/Unbenannt.md",
+                "file": "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unbenannt"
+              "title": "Encoder Decoder Transformer"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Self-Attention",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,11 +183,16 @@
   },
   "active": "b04c149b3c15bbf4",
   "lastOpenFiles": [
+    "Sem 3/Natural Language Processing/Lecture 6 – Recurrent Neural Networks (RNNs).md",
+    "Sem 3/Natural Language Processing/Lecture5_Classic_NLP_Pipeline_Notes.md",
+    "Sem 3/Natural Language Processing/Lecture4_Part_of_Speech_Tagging_Notes.md",
+    "Sem 3/Natural Language Processing/Lecture 3 – Word Representations.md",
+    "Sem 3/Natural Language Processing/Lecture 2.md",
+    "Sem 3/Natural Language Processing/Lecture 1.md",
+    "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
     "Sem 3/Natural Language Processing/Lecture 9.md",
-    "Sem 3/Natural Language Processing/Fragen/Unbenannt.md",
     "Pasted image 20260106180219.png",
     "Sem 3/Natural Language Processing/Lecture 7.md",
-    "Sem 3/Natural Language Processing/Lecture 6 – Recurrent Neural Networks (RNNs).md",
     "Sem 3/Natural Language Processing/Lecture 3.md",
     "Sem 3/Natural Language Processing/Lecture 12 — Transformer Language Models (with extra annotations).md",
     "Sem 3/Natural Language Processing/Lecture 16.md",
@@ -209,17 +215,12 @@
     "Sem 3/Lecture 12_ Transformer Language Models - no Notes.pdf",
     "Sem 3/Pasted image 20251205115731.png",
     "Sem 3/Pasted image 20251205115348.png",
-    "Sem 3/Natural Language Processing/Lecture 1.md",
-    "Sem 3/Natural Language Processing/Lecture 2.md",
     "Lecture 9_ The Transformer - no Notes.pdf",
     "Sem 3/Intro Embedded AI/VL3.md",
     "Sem 3/Intro Embedded AI/VL 5.md",
-    "Sem 3/Natural Language Processing/Lecture 3 – Word Representations.md",
     "Sem 3/Intro Embedded AI/VL 1.md",
     "Sem 3/Pasted image 20251112114159.png",
-    "Sem 3/Natural Language Processing/Lecture5_Classic_NLP_Pipeline_Notes.md",
     "Sem 3/Pasted image 20251028112424.png",
-    "Sem 3/Natural Language Processing/Lecture4_Part_of_Speech_Tagging_Notes.md",
     "Sem 3/Seminar Machine Learning in Robotics/VL 2.md",
     "Sem 3/Seminar Machine Learning in Robotics/VL 1.md",
     "VL 2",
