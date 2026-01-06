@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 3/Natural Language Processing/Fragen/Warum Normalisieren.md",
+                "file": "Sem 3/Natural Language Processing/Lecture 12 — Transformer Language Models (with extra annotations).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Warum Normalisieren"
+              "title": "Lecture 12 — Transformer Language Models (with extra annotations)"
             }
           }
         ]
@@ -182,8 +182,9 @@
   },
   "active": "b04c149b3c15bbf4",
   "lastOpenFiles": [
-    "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
+    "Sem 3/Natural Language Processing/Lecture 16.md",
     "Sem 3/Natural Language Processing/Fragen/Warum Normalisieren.md",
+    "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
     "Sem 3/Natural Language Processing/Fragen/Embeddings vs. Hidden Dimension.md",
     "Sem 3/Natural Language Processing/Fragen/Hidden Dimension.md",
     "Sem 3/Natural Language Processing/Fragen",
@@ -194,7 +195,6 @@
     "Sem 3/Pasted image 20260106114830.png",
     "Sem 3/Pasted image 20260106114449.png",
     "Sem 3/Pasted image 20260106113736.png",
-    "Sem 3/Natural Language Processing/Lecture 16.md",
     "Sem 3/Pasted image 20260106112330.png",
     "Natural Language Processing/Lecture_18_LLMs_and_In_Context_Learning.md",
     "Sem 3/Natural Language Processing/Lecture 12 — Transformer Language Models (with extra annotations).md",
