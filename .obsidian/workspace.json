@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 3/Natural Language Processing/Lecture 12 — Transformer Language Models (with extra annotations).md",
+                "file": "Sem 3/Natural Language Processing/Lecture 9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 12 — Transformer Language Models (with extra annotations)"
+              "title": "Lecture 9"
             }
           }
         ]
@@ -182,6 +182,11 @@
   },
   "active": "b04c149b3c15bbf4",
   "lastOpenFiles": [
+    "Pasted image 20260106180219.png",
+    "Sem 3/Natural Language Processing/Lecture 7.md",
+    "Sem 3/Natural Language Processing/Lecture 6 – Recurrent Neural Networks (RNNs).md",
+    "Sem 3/Natural Language Processing/Lecture 3.md",
+    "Sem 3/Natural Language Processing/Lecture 12 — Transformer Language Models (with extra annotations).md",
     "Sem 3/Natural Language Processing/Lecture 16.md",
     "Sem 3/Natural Language Processing/Fragen/Warum Normalisieren.md",
     "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
@@ -197,13 +202,11 @@
     "Sem 3/Pasted image 20260106113736.png",
     "Sem 3/Pasted image 20260106112330.png",
     "Natural Language Processing/Lecture_18_LLMs_and_In_Context_Learning.md",
-    "Sem 3/Natural Language Processing/Lecture 12 — Transformer Language Models (with extra annotations).md",
     "Sem 3/Intro Embedded AI/Evolution - Cognition from scratch.md",
     "Sem 3/Intro Embedded AI/VL4.md",
     "Sem 3/Lecture 12_ Transformer Language Models - no Notes.pdf",
     "Sem 3/Pasted image 20251205115731.png",
     "Sem 3/Pasted image 20251205115348.png",
-    "Sem 3/Natural Language Processing/Lecture 3.md",
     "Sem 3/Natural Language Processing/Lecture 1.md",
     "Sem 3/Natural Language Processing/Lecture 2.md",
     "Sem 3/Natural Language Processing/Lecture 9.md",
@@ -211,10 +214,8 @@
     "Sem 3/Intro Embedded AI/VL3.md",
     "Sem 3/Intro Embedded AI/VL 5.md",
     "Sem 3/Natural Language Processing/Lecture 3 – Word Representations.md",
-    "Sem 3/Natural Language Processing/Lecture 6 – Recurrent Neural Networks (RNNs).md",
     "Sem 3/Intro Embedded AI/VL 1.md",
     "Sem 3/Pasted image 20251112114159.png",
-    "Sem 3/Natural Language Processing/Lecture 7.md",
     "Sem 3/Natural Language Processing/Lecture5_Classic_NLP_Pipeline_Notes.md",
     "Sem 3/Pasted image 20251028112424.png",
     "Sem 3/Natural Language Processing/Lecture4_Part_of_Speech_Tagging_Notes.md",
@@ -222,7 +223,6 @@
     "Sem 3/Seminar Machine Learning in Robotics/VL 1.md",
     "VL 2",
     "Kognitive Robotik/Wahrnehmung.md",
-    "Kognitive Robotik/Visuelle Verarbeitung.md",
     "Sem 3/Intro Embedded AI",
     "Sem 3/Seminar Machine Learning in Robotics",
     "Sem 3/Natural Language Processing",
