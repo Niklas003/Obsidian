@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
+                "file": "Sem 3/Natural Language Processing/Fragen/Warum Normalisieren.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RNN vs. Transformer"
+              "title": "Warum Normalisieren"
             }
           }
         ]
@@ -165,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 621.5,
-    "collapsed": true
+    "width": 621.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,8 +181,9 @@
   },
   "active": "b04c149b3c15bbf4",
   "lastOpenFiles": [
-    "Sem 3/Natural Language Processing/Fragen/Embeddings vs. Hidden Dimension.md",
     "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
+    "Sem 3/Natural Language Processing/Fragen/Warum Normalisieren.md",
+    "Sem 3/Natural Language Processing/Fragen/Embeddings vs. Hidden Dimension.md",
     "Sem 3/Natural Language Processing/Fragen/Hidden Dimension.md",
     "Sem 3/Natural Language Processing/Fragen",
     "Sem 3/Q15-1016.pdf",
@@ -222,7 +222,6 @@
     "VL 2",
     "Kognitive Robotik/Wahrnehmung.md",
     "Kognitive Robotik/Visuelle Verarbeitung.md",
-    "Kognitive Robotik/Motion.md",
     "Sem 3/Intro Embedded AI",
     "Sem 3/Seminar Machine Learning in Robotics",
     "Sem 3/Natural Language Processing",
