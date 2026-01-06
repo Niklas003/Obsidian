@@ -52,7 +52,7 @@ $$
 
 ---
 
-## 3. Was passiert konkret mit einem Prompt in GPT?
+## 3. Was passiert konkret mit einem #Prompt in GPT?
 
 Angenommen:
 
