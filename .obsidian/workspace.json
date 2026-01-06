@@ -11,10 +11,14 @@
             "id": "b04c149b3c15bbf4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "title": "RNN vs. Transformer"
             }
           }
         ]
@@ -161,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 621.5
+    "width": 621.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,8 +180,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "990aa18b3b89bc78",
+  "active": "b04c149b3c15bbf4",
   "lastOpenFiles": [
+    "Sem 3/Natural Language Processing/Fragen/Embeddings vs. Hidden Dimension.md",
+    "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
+    "Sem 3/Natural Language Processing/Fragen/Hidden Dimension.md",
+    "Sem 3/Natural Language Processing/Fragen",
     "Sem 3/Q15-1016.pdf",
     "Sem 3",
     "Sem 3/Natural Language Processing/Lecture_18_LLMs_and_In_Context_Learning_Expanded.md",
@@ -219,10 +228,6 @@
     "Sem 3/Natural Language Processing",
     "Kognitive Robotik/Bilder/Pasted image 20250712170127.png",
     "Unbenannt.canvas",
-    "Kognitive Robotik/Bilder",
-    "Hausaufgabe.md",
-    "keybase.io.md",
-    "Kognitive Robotik",
-    "Agile Methoden"
+    "Kognitive Robotik/Bilder"
   ]
 }
