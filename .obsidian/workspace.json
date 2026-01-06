@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b131ad27fe24e313",
+        "id": "544c7086223f2f88",
         "type": "tabs",
         "children": [
           {
-            "id": "1b04f331a7f6d69c",
+            "id": "b04c149b3c15bbf4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Sem 3/Q15-1016.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Q15-1016"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -177,8 +175,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ebfd46256f539be7",
+  "active": "990aa18b3b89bc78",
   "lastOpenFiles": [
+    "Sem 3/Q15-1016.pdf",
     "Sem 3",
     "Sem 3/Natural Language Processing/Lecture_18_LLMs_and_In_Context_Learning_Expanded.md",
     "Sem 3/Pasted image 20260106122115.png",
@@ -189,8 +188,8 @@
     "Sem 3/Pasted image 20260106112330.png",
     "Natural Language Processing/Lecture_18_LLMs_and_In_Context_Learning.md",
     "Sem 3/Natural Language Processing/Lecture 12 — Transformer Language Models (with extra annotations).md",
-    "Intro Embedded AI/Evolution - Cognition from scratch.md",
-    "Intro Embedded AI/VL4.md",
+    "Sem 3/Intro Embedded AI/Evolution - Cognition from scratch.md",
+    "Sem 3/Intro Embedded AI/VL4.md",
     "Sem 3/Lecture 12_ Transformer Language Models - no Notes.pdf",
     "Sem 3/Pasted image 20251205115731.png",
     "Sem 3/Pasted image 20251205115348.png",
@@ -199,12 +198,11 @@
     "Sem 3/Natural Language Processing/Lecture 2.md",
     "Sem 3/Natural Language Processing/Lecture 9.md",
     "Lecture 9_ The Transformer - no Notes.pdf",
-    "Intro Embedded AI/VL3.md",
-    "Intro Embedded AI/VL 5.md",
+    "Sem 3/Intro Embedded AI/VL3.md",
+    "Sem 3/Intro Embedded AI/VL 5.md",
     "Sem 3/Natural Language Processing/Lecture 3 – Word Representations.md",
-    "Sem 3/Q15-1016.pdf",
     "Sem 3/Natural Language Processing/Lecture 6 – Recurrent Neural Networks (RNNs).md",
-    "Intro Embedded AI/VL 1.md",
+    "Sem 3/Intro Embedded AI/VL 1.md",
     "Sem 3/Pasted image 20251112114159.png",
     "Sem 3/Natural Language Processing/Lecture 7.md",
     "Sem 3/Natural Language Processing/Lecture5_Classic_NLP_Pipeline_Notes.md",
@@ -216,7 +214,7 @@
     "Kognitive Robotik/Wahrnehmung.md",
     "Kognitive Robotik/Visuelle Verarbeitung.md",
     "Kognitive Robotik/Motion.md",
-    "Intro Embedded AI",
+    "Sem 3/Intro Embedded AI",
     "Sem 3/Seminar Machine Learning in Robotics",
     "Sem 3/Natural Language Processing",
     "Kognitive Robotik/Bilder/Pasted image 20250712170127.png",
