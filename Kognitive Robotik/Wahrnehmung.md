@@ -1,6 +1,6 @@
 ## Definition - auf Maschinen übertragen
 
->Prozesse der Signalaufnahme und -verarbeitung zur Erstellung einer Repräsentation der Umwelt. Sie ermöglicht angepasstes Verhalten und Lernen.
+>Prozesse der **Signalaufnahme und -verarbeitung** zur Erstellung einer Repräsentation der Umwelt. Sie ermöglicht angepasstes Verhalten und Lernen.
 
 ## Bewusstsein
 Besitz und Empfindung mentaler Zustände z.B. Gedanken
@@ -22,9 +22,19 @@ man versucht aktiv etwas in etwas anderem wahrzunehmen und auch damit zu interag
 
 **Beispiel:** Ich schaue mir die Geschenke unter dem Weihnachtsbaum nicht nur an, sondern interagiere auch mit diesen
 
-### Passive Wahrnehmung
+**Merkmale:**
+- Bewusst gesteuert
+- Aufmerksamkeit ist fokussiert
+- Zielorientiert, oft mit Handlung verbunden
 
+### Passive Wahrnehmung
+**Definition:** Wahrnehmung, die automatisch und ohne bewusste Steuerung abläuft.
 Daten kommen einfach nur herein und man versucht Datenende zu finden
+
+**Merkmale:**
+- Unbewusst, zufällig, beiläufig
+- Reaktion ohne Absicht oder gezielte Aufmerksamkeit
+- Wird oft vom Gehirn „gefiltert“, ohne dass du es aktiv merkst
 
 ### Kombination von Informationen
 
@@ -57,6 +67,19 @@ Wahrnehmungen entstehen durch Kombination von
 **Maschinelle Sensoren:** viele
 **Menschliche Sensoren:** 5 Sinne
 
+## Wahrnehmungsprozess
+
+**Erstellung eines Weltmodells**
+
+Strukturierung des Prozesses:
+- Vertikal
+	- Wahrnehmungsprozess über verschiedene Ebenen (Vorverarbeitung, Zwischenresultate, ...)
+- Horizontal
+	- Integration von Daten aus unterschiedlichen Quellen
+	- bzw. von Daten unterschiedlicher Art
+- Zeitlich
+	- Integration von Daten aus unterschiedlichen Zeitpunkten
+
 ### Body Babbling 👄
 
 - Einfach alle Gelenke ansteuern und schauen was passiert
@@ -80,10 +103,13 @@ Wahrnehmungen entstehen durch Kombination von
 - Messpunkte an kritischen Stellen am Körper angebracht
 ## Maschinelle Wahrnehmungsprozesse
 
-- Parallel und Sequentiell
+- #parallel und #sequentiell
 ### Parallel
 ![[Pasted image 20250712113913.png]]
 
+### Sequentiell
+
+Wäre z.B. Hören des Wortes **"Apfel"**
 ### Waltz Algorithmus 🏠
 
 >Algorithmus zur Erkennung und Beschriftung verschiedener Kantenformen in 3D Objekten und 2D Bildern. Er soll Linienformern finden welche im 3D Raum physikalisch Möglich sind.
@@ -116,9 +142,10 @@ Diese nennt man **"legal junctions"** (z. B. L-Ecke, T-Ecke, Y-Ecke).
 - Ergänzung fehlender Informationen
 - Fixierung auf erwartenden Kontext
 #### Beschränkung durch Erwartungen
-- Man kann nur wahrnehmen was man erkennen kann+
+- Man kann nur wahrnehmen was man erkennen kann
 - Maschine: 
 	- Kreis nur erkennbar mit bestimmten Algorithmus
+	- es können nur Elemente erkannt werden die auch "gelernt" wurden
 - Mensch:
 	- Angeborenes Wissen + Erfahrungen
 - Philosophisch Probleme:
@@ -146,7 +173,7 @@ Wie beim natürlichen sehen sind Ergänzungen, Auswahlen und Interpretationen no
 
 ## #Aufmerksamkeit
 
->Ist der Prozess wo etwas sich auf ein Feature konzentriert wird, dabei kommt es zum Ausschluss des restlichen Environments
+>Ist der Prozess wo ein agent sich auf ein Feature konzentriert, dabei kommt es zum Ausschluss des restlichen Environments
 
 **Im Grunde:** Selektion von Information
 - Durch bewusstes und unbewusstes Wahrnehmen

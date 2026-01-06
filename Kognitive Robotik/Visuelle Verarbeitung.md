@@ -19,7 +19,7 @@ Reizung wird im Gehirn weiterverarbeitet und führt zu unterschiedlichen #Wahrne
 Es gibt ,,Ergänzungen" (die können zu Farbillusionen führen)
 
 # Subjektive Farbmerkmale
-- Helligkeit
+- Helligkeit #Brightness
 - Farbton #Hue 
 	- Begriff zur Unterscheidung verschiedener charakteristischer Farbmuster
 - Sättigung #Saturation
@@ -61,9 +61,10 @@ Die Kombination von Farben soll dem Mischen von Farben entsprechen.
 - YIQ
 ### Physiologisch orientierte Farbmodelle
 - HLS 
-- HSV #⚽
+- HSV #⚽  - prinzipiell ähnlich wie HSB
 - HSI
 	- **Hue**, **Saturation**, **Intensity**
+- HSB - an subjektiver Farbwahrnehmung geknüpft
 # Erzeugung digitaler Bilder 🖼️
 ## 1. Räumliche Abtastung
 Sensorelemente erhalten Licht aus bestimmten Bereichen gemäß Kamera System
@@ -118,7 +119,7 @@ bestimmt durch
 - `A > 2*f`
 - Also -> Pro Wellenlänge mehr als 2 Abtastpunkte
 ---
-- Die Bedingung muss in jede Richtung des Bildes gelten. Wenn bedingung nicht erfüllt passiert 
+- Die Bedingung muss in jede Richtung des Bildes gelten. Wenn Bedingung nicht erfüllt passiert 
 	- Korrekte Bildinhalte werden nicht übermittelt
 	- Es entstehen störende Muster
 - Störende Muster könne durch vorherige Tiefpassfilterung verhindert werden
@@ -127,6 +128,7 @@ bestimmt durch
 
 >Auch "Treppenglättung" genannt werden Signalteile oberhalb der Nyquist-Frequenz durch Tiefpass Filterung gedämpft.
 
+---
 # Kameramodelle 📷
 **Voraussetzung für scharfe Darstellung:** Jeder Bildpunkt wird wird nur von **einem** Lichtstrahl aus der Umgebung getroffen
 
@@ -220,6 +222,7 @@ bekannte intrinsische Parameter
 - Farbklasse komplexerer Ausschnitt des entsprechenden Farbraumes
 - Konkreter Bereich abhängig von Reflexion, Schatten, Beleuchtung etc.
 
+---
 # Bildbearbeitung klassisch vs. Deep NN 🤖
 
 ## Warum ersetzten Deep NNs alte Methoden?
@@ -232,6 +235,7 @@ bekannte intrinsische Parameter
 - wenn erklärbarkeit/Determinismus wichtig ist
 - Verständnis der Prinzipien
 
+---
 # Objekterkennung 🌳
 
 **Problem:**
@@ -273,12 +277,12 @@ Beschreibung der Transformation durch #Matrix (Kern, Maske)
 -2 0 2
 -1 0 1
 
-> Wird als Matrix über die einzelnen Bildpunkte geschoben
+> Wird als #Matrix über die einzelnen Bildpunkte geschoben
 > Es existiert Matrix für horizontal und vertikal
 
 ### Beispiel: Gaußfilter
 
-Glättung/Deniosining
+Glättung/Denosining
 
 Mittelwert hat ,,höchste Aussagekraft" -> gewichteter Mittelwert
 
@@ -326,29 +330,34 @@ Sie wandelt das Problem um:
 ### 1. **Linien im Bildraum** (Ortsdomäne)
 
 Eine **Linie** im 2D-Raum hat in der klassischen Form:
-
+$$
 y=mx+by = mx + by=mx+b
-
-→ aber: bei vertikalen Linien wird m=∞m = \inftym=∞, was problematisch ist.
+$$
+→ aber: bei vertikalen Linien wird 
+$$ 
+m=∞m = \inftym=∞ 
+$$, was problematisch ist.
 
 Deshalb verwendet man lieber die **Hough-Form** (Polardarstellung):
-
+$$
 ρ=xcos⁡(θ)+ysin⁡(θ)\rho = x \cos(\theta) + y \sin(\theta)ρ=xcos(θ)+ysin(θ)
-
+$$
+$$
 - ρ\rhoρ: Abstand der Linie vom Ursprung
 - θ\thetaθ: Winkel der Normalen zur Linie
-
+$$
 ### 2. **Idee: Jeder Bildpunkt erzeugt eine Kurve im (ρ, θ)-Raum**
 
 Stell dir einen **Kantenpunkt (x, y)** im Bild vor:  
 Er kann zu **vielen Linien gehören**, also zu vielen Kombinationen von ρ\rhoρ und θ\thetaθ.
 
 → Für jeden solchen Punkt berechnet man:
-
+$$
 ρ=xcos⁡(θ)+ysin⁡(θ)\rho = x \cos(\theta) + y \sin(\theta)ρ=xcos(θ)+ysin(θ)
-
-für viele θ\thetaθ-Werte → ergibt eine Sinuskurve im Hough-Raum.
-
+$$
+$$
+für viele θ\thetaθ - Werte → ergibt eine Sinuskurve im Hough-Raum.
+$$
 ### 3. **Akkumulator: Stimmen zählen im Hough-Raum**
 
 Man erstellt eine **Matrix** (Akkumulator), in der für jedes (ρ, θ) **gezählt wird, wie viele Punkte** auf einer Linie mit diesen Parametern liegen würden.
