@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 200
   },
   "right": {
     "id": "32bc89c4067ab4dc",
@@ -161,7 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 621.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,7 +175,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "990aa18b3b89bc78",
+  "active": "ebfd46256f539be7",
   "lastOpenFiles": [
     "Sem 3/Q15-1016.pdf",
     "Sem 3",
