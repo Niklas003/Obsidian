@@ -128,6 +128,8 @@ Each decoder layer contains:
 ### **Why Masking?**
 Prevents cheating during training → ensures autoregressive generation.
 
+![[Pasted image 20260106180219.png]]
+
 ---
 
 ## 7. Multi‑Head Attention (MHA)
@@ -169,10 +171,6 @@ Just run several attention heads in parallel and concatenate outputs.
 ✔ Attention removes bottlenecks  
 ✔ Self‑attention enables full parallelization and deep context modeling  
 ✔ Transformers dominate NLP because they scale extremely well  
-
----
-
-*(These notes were generated from the lecture slides to fit Obsidian‑friendly markdown formatting.)*
 
 
 ![[Q15-1016.pdf]]

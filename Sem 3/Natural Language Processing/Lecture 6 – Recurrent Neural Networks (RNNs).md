@@ -186,9 +186,9 @@ Each LSTM cell maintains:
 ## ⚙️ LSTM Cell Computation
 
 At each time step:
-
+$$
 ft=σ(Wf[ht−1,xt]+bf)(forget gate)f_t = σ(W_f [h_{t-1}, x_t] + b_f) \quad \text{(forget gate)}ft​=σ(Wf​[ht−1​,xt​]+bf​)(forget gate) it=σ(Wi[ht−1,xt]+bi)(input gate)i_t = σ(W_i [h_{t-1}, x_t] + b_i) \quad \text{(input gate)}it​=σ(Wi​[ht−1​,xt​]+bi​)(input gate) c~t=tanh⁡(Wc[ht−1,xt]+bc)(candidate state)\tilde{c}_t = \tanh(W_c [h_{t-1}, x_t] + b_c) \quad \text{(candidate state)}c~t​=tanh(Wc​[ht−1​,xt​]+bc​)(candidate state) ct=ft∗ct−1+it∗c~tc_t = f_t * c_{t-1} + i_t * \tilde{c}_tct​=ft​∗ct−1​+it​∗c~t​ ot=σ(Wo[ht−1,xt]+bo)o_t = σ(W_o [h_{t-1}, x_t] + b_o)ot​=σ(Wo​[ht−1​,xt​]+bo​) ht=ot∗tanh⁡(ct)h_t = o_t * \tanh(c_t)ht​=ot​∗tanh(ct​)
-
+$$
 ---
 
 ### Explanation of Gates
@@ -275,17 +275,9 @@ class BiLSTMTagger(nn.Module):
 ## 🧩 Key Takeaways
 
 - RNNs process **sequential data** with shared weights across time.
-    
 - LSTMs and GRUs solve **long-term dependency** problems via gating.
-    
 - BiLSTMs capture **contextual information** from both directions.
-    
 - Foundation for modern **Transformer** models (replaced recurrence with attention).
-    
-
----
-
-## 📘 **End of Lecture 6 – Recurrent Neural Networks (RNNs)**
 
 
 

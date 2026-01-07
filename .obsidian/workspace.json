@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b9ececbbca3a1a82",
+        "id": "2f031f62ad2e9a19",
         "type": "tabs",
         "children": [
           {
-            "id": "770457f4e3ed588e",
+            "id": "f3ff880bf3b29fd6",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
+                "aFile": "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
+                "bFile": "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: workspace.json"
+              "title": "Diff: Encoder Decoder Transformer"
             }
           }
         ]
@@ -179,14 +179,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "770457f4e3ed588e",
+  "active": "f3ff880bf3b29fd6",
   "lastOpenFiles": [
-    "Sem 3/Intro Embedded AI/07.01.md",
+    "Sem 3/Intro Embedded AI/VL - 07.01.md",
     "conflict-files-obsidian-git.md",
+    "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
     "Sem 3/Pasted image 20260106180219.png",
     "Sem 3/Natural Language Processing/Fragen/Embeddings vs. Hidden Dimension.md",
     "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
-    "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
     "Sem 3/Natural Language Processing/Fragen/Hidden Dimension.md",
     "Sem 3/Natural Language Processing/Fragen/Warum Normalisieren.md",
     "Sem 3/Natural Language Processing/Fragen",
