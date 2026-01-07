@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "544c7086223f2f88",
+        "id": "b9ececbbca3a1a82",
         "type": "tabs",
         "children": [
           {
-            "id": "b04c149b3c15bbf4",
+            "id": "770457f4e3ed588e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 351.5
   },
   "right": {
     "id": "32bc89c4067ab4dc",
@@ -161,7 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 465.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,8 +179,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ebfd46256f539be7",
+  "active": "770457f4e3ed588e",
   "lastOpenFiles": [
+    "Sem 3/Intro Embedded AI/07.01.md",
+    "conflict-files-obsidian-git.md",
+    "Sem 3/Pasted image 20260106180219.png",
+    "Sem 3/Natural Language Processing/Fragen/Embeddings vs. Hidden Dimension.md",
+    "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
+    "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
+    "Sem 3/Natural Language Processing/Fragen/Hidden Dimension.md",
+    "Sem 3/Natural Language Processing/Fragen/Warum Normalisieren.md",
+    "Sem 3/Natural Language Processing/Fragen",
     "Sem 3/Q15-1016.pdf",
     "Sem 3",
     "Sem 3/Natural Language Processing/Lecture_18_LLMs_and_In_Context_Learning_Expanded.md",
@@ -209,20 +222,11 @@
     "Sem 3/Pasted image 20251028112424.png",
     "Sem 3/Natural Language Processing/Lecture4_Part_of_Speech_Tagging_Notes.md",
     "Sem 3/Seminar Machine Learning in Robotics/VL 2.md",
-    "Sem 3/Seminar Machine Learning in Robotics/VL 1.md",
     "VL 2",
-    "Kognitive Robotik/Wahrnehmung.md",
-    "Kognitive Robotik/Visuelle Verarbeitung.md",
-    "Kognitive Robotik/Motion.md",
     "Sem 3/Intro Embedded AI",
     "Sem 3/Seminar Machine Learning in Robotics",
     "Sem 3/Natural Language Processing",
-    "Kognitive Robotik/Bilder/Pasted image 20250712170127.png",
     "Unbenannt.canvas",
-    "Kognitive Robotik/Bilder",
-    "Hausaufgabe.md",
-    "keybase.io.md",
-    "Kognitive Robotik",
-    "Agile Methoden"
+    "Kognitive Robotik/Bilder"
   ]
 }
