@@ -11,14 +11,14 @@
             "id": "90c0004cbc3afcca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/plugins/obsidian-git/data.json",
+                "bFile": ".obsidian/plugins/obsidian-git/data.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Encoder Decoder Transformer"
+              "icon": "diff",
+              "title": "Diff: data.json"
             }
           }
         ]
@@ -181,9 +181,11 @@
   },
   "active": "90c0004cbc3afcca",
   "lastOpenFiles": [
+    "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
+    "conflict-files-obsidian-git.md",
+    "Sem 3/Intro Embedded AI/VL - 07.01.md",
     "Sem 3/Natural Language Processing/Fragen/Warum Normalisieren.md",
     "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
-    "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
     "Sem 3/Pasted image 20260106180219.png",
     "Sem 3/Natural Language Processing/Lecture 6 – Recurrent Neural Networks (RNNs).md",
     "Sem 3/Natural Language Processing/Lecture5_Classic_NLP_Pipeline_Notes.md",
@@ -220,7 +222,6 @@
     "Sem 3/Pasted image 20251112114159.png",
     "Sem 3/Pasted image 20251028112424.png",
     "Sem 3/Seminar Machine Learning in Robotics/VL 2.md",
-    "Sem 3/Seminar Machine Learning in Robotics/VL 1.md",
     "VL 2",
     "Sem 3/Intro Embedded AI",
     "Sem 3/Seminar Machine Learning in Robotics",
