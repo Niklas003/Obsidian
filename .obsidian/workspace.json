@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "586e02427f77b123",
+        "id": "e8d787700f4d5256",
         "type": "tabs",
         "children": [
           {
-            "id": "90c0004cbc3afcca",
+            "id": "ffde8bf8c7760914",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/data.json",
-                "bFile": ".obsidian/plugins/obsidian-git/data.json",
-                "aRef": ""
+                "file": "Sem 3/Natural Language Processing/Lecture_19_Instruction_Tuning_RLHF_Obsidian.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: data.json"
+              "icon": "lucide-file",
+              "title": "Lecture_19_Instruction_Tuning_RLHF_Obsidian"
             }
           }
         ]
@@ -179,11 +179,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "90c0004cbc3afcca",
+  "active": "ffde8bf8c7760914",
   "lastOpenFiles": [
+    "Sem 3/Intro Embedded AI/VL - 07.01.md",
+    "Sem 3/Natural Language Processing/Lecture_19_Instruction_Tuning_RLHF_Obsidian.md",
     "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
     "conflict-files-obsidian-git.md",
-    "Sem 3/Intro Embedded AI/VL - 07.01.md",
     "Sem 3/Natural Language Processing/Fragen/Warum Normalisieren.md",
     "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
     "Sem 3/Pasted image 20260106180219.png",
@@ -221,7 +222,6 @@
     "Sem 3/Intro Embedded AI/VL 1.md",
     "Sem 3/Pasted image 20251112114159.png",
     "Sem 3/Pasted image 20251028112424.png",
-    "Sem 3/Seminar Machine Learning in Robotics/VL 2.md",
     "VL 2",
     "Sem 3/Intro Embedded AI",
     "Sem 3/Seminar Machine Learning in Robotics",
