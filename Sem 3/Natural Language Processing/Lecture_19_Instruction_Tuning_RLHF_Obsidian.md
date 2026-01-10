@@ -139,6 +139,10 @@ Align model behavior with:
 Approach:
 - learn a reward function from human preferences
 
+Limitations _see goal_
+- Respones can be toxic or offensive
+- Good response - a token sequence that was seen more often
+
 ---
 
 ## 10. RLHF Pipeline
@@ -146,6 +150,7 @@ Approach:
 1. Pre-training
 2. Instruction tuning (SFT)
 3. Collect human preference comparisons
+	1. select e.g. specific reddit posts where you find a answer good
 4. Train reward model
 5. Optimize LM using RL
 
@@ -155,6 +160,7 @@ Approach:
 
 Why PPO:
 - prevents catastrophic drift
+- biggest possible improvement ofthe IT-LLM without deviating too much
 - constrains updates
 
 Components:
@@ -176,13 +182,16 @@ Components:
 
 ## 13. Alternatives
 
-### GRPO
+### GRPO (Group Relative Policy Optimization)
 - Group-based rewards
 - More stable
+- Eliminate the need for the value function by relying in group-level rewards
+- > generate multiple prompt completions instead of one
 
-### DPO
+### DPO (Direct Preference Optimization)
 - Directly optimizes preferences
 - Simpler but fragile
+- Idea: Your LM is secretly a reward model
 
 ---
 

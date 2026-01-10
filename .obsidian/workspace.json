@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 3/Natural Language Processing/Lecture_19_Instruction_Tuning_RLHF_Obsidian.md",
+                "file": "Sem 3/Seminar - Maschinelles Lernen/BoosterRL_IsaacLab_Windows_FINAL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture_19_Instruction_Tuning_RLHF_Obsidian"
+              "title": "BoosterRL_IsaacLab_Windows_FINAL"
             }
           }
         ]
@@ -181,8 +181,12 @@
   },
   "active": "ffde8bf8c7760914",
   "lastOpenFiles": [
-    "Sem 3/Intro Embedded AI/VL - 07.01.md",
+    "Sem 3/Seminar - Maschinelles Lernen/IsaacLab_Windows_Setup.md",
+    "Sem 3/Seminar - Maschinelles Lernen/BoosterRL_IsaacLab_Windows_FINAL.md",
+    "Sem 3/Seminar - Maschinelles Lernen/BoosterRL_Windows_IsaacLab_Setup.md",
     "Sem 3/Natural Language Processing/Lecture_19_Instruction_Tuning_RLHF_Obsidian.md",
+    "Sem 3/Seminar - Maschinelles Lernen",
+    "Sem 3/Intro Embedded AI/VL - 07.01.md",
     "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
     "conflict-files-obsidian-git.md",
     "Sem 3/Natural Language Processing/Fragen/Warum Normalisieren.md",
@@ -217,16 +221,12 @@
     "Sem 3/Pasted image 20251205115731.png",
     "Sem 3/Pasted image 20251205115348.png",
     "Lecture 9_ The Transformer - no Notes.pdf",
-    "Sem 3/Intro Embedded AI/VL3.md",
-    "Sem 3/Intro Embedded AI/VL 5.md",
-    "Sem 3/Intro Embedded AI/VL 1.md",
     "Sem 3/Pasted image 20251112114159.png",
     "Sem 3/Pasted image 20251028112424.png",
     "VL 2",
     "Sem 3/Intro Embedded AI",
     "Sem 3/Seminar Machine Learning in Robotics",
     "Sem 3/Natural Language Processing",
-    "Unbenannt.canvas",
-    "Kognitive Robotik/Bilder"
+    "Unbenannt.canvas"
   ]
 }
