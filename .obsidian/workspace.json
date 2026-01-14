@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "2f031f62ad2e9a19",
+        "id": "4c779970f40315e0",
         "type": "tabs",
         "children": [
           {
-            "id": "f3ff880bf3b29fd6",
+            "id": "fb803601c9d70325",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
-                "bFile": "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
-                "aRef": ""
+                "file": "Sem 3/Intro Embedded AI/VL - 07.01.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Encoder Decoder Transformer"
+              "icon": "lucide-file",
+              "title": "VL - 07.01"
+            }
+          },
+          {
+            "id": "99001eca5d0e6840",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem 3/Intro Embedded AI/VL - 14.01.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VL - 14.01"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,8 +194,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f3ff880bf3b29fd6",
+  "active": "99001eca5d0e6840",
   "lastOpenFiles": [
+    "Sem 3/Seminar Machine Learning in Robotics/VL 2.md",
+    "Sem 3/Seminar Machine Learning in Robotics/VL 1.md",
+    "Sem 3/Intro Embedded AI/VL - 14.01.md",
     "Sem 3/Intro Embedded AI/VL - 07.01.md",
     "conflict-files-obsidian-git.md",
     "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
@@ -218,10 +236,7 @@
     "Sem 3/Intro Embedded AI/VL 1.md",
     "Sem 3/Pasted image 20251112114159.png",
     "Sem 3/Natural Language Processing/Lecture 7.md",
-    "Sem 3/Natural Language Processing/Lecture5_Classic_NLP_Pipeline_Notes.md",
     "Sem 3/Pasted image 20251028112424.png",
-    "Sem 3/Natural Language Processing/Lecture4_Part_of_Speech_Tagging_Notes.md",
-    "Sem 3/Seminar Machine Learning in Robotics/VL 2.md",
     "VL 2",
     "Sem 3/Intro Embedded AI",
     "Sem 3/Seminar Machine Learning in Robotics",
