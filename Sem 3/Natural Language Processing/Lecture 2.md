@@ -16,10 +16,10 @@ Ho to learn params (weights) that forward path makes sense?
 
 ## SGD Stochastic gradient descend
 
-- random init of all params inthe network
+- random init of all params in the network
 - and then > how well does it work
-- compute cahges that need to make 
-- do the cahnge 
+- compute changes that need to make 
+- do the change 
 - repeat
 
 backward pass:
@@ -39,10 +39,7 @@ function to determine how correct or incorrect the model is.
 standard loss x² per unit
 
 "punishing the model more"
-
 ## Loss landscape
-
-
 
 2 D für einen Wert 
 3D für 2 Werte 
