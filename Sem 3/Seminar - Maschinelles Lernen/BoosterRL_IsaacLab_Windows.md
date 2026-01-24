@@ -1,4 +1,4 @@
-# Booster RL + Isaac Lab (Windows-only Setup – FINAL)
+# Booster RL + Isaac Lab (Windows-only Setup)
 
 ## Ziel
 Dieses Dokument beschreibt das **vollständig funktionierende Setup** für:
@@ -36,7 +36,7 @@ Dieses Dokument entspricht dem **aktuellen Stand** der BoosterRobotics-Repos.
 ## 2. Ordnerstruktur
 
 ```
-C:\rl_walk
+C:\Users\<USER>\rl_walk
 ├── isaac_lab
 ├── booster_train
 ├── booster_assets
@@ -53,7 +53,7 @@ C:\rl_walk
 
 Typischer Installationspfad:
 ```
-C:\Users\<USER>\AppData\Local\ov\pkg\isaac_sim-5.0.0
+C:\Users\<USER>\AppData\Local\ov\pkg\isaac-sim
 ```
 
 ### 3.2 Test
@@ -68,7 +68,7 @@ python.bat -c "import omni; print('omni OK')"
 Isaac Lab **nicht per pip installieren**.
 
 ```powershell
-cd C:\rl_walk\isaac_lab
+cd C:\Users\<USER>\rl_walk\isaac_lab
 isaaclab.bat --install
 ```
 
@@ -96,8 +96,8 @@ python.bat train.py
 ## 6. booster_assets installieren
 
 ```powershell
-cd C:\Users\<USER>\AppData\Local\ov\pkg\isaac_sim-5.0.0
-python.bat -m pip install -e C:\rl_walk\booster_assets
+cd C:\Users\<USER>\AppData\Local\ov\pkg\isaac-sim
+.\python.bat -m pip install -e C:\rl_walk\booster_assets
 ```
 
 Test:
@@ -110,13 +110,25 @@ python.bat -c "import booster_assets; print('booster_assets OK')"
 ## 7. booster_train installieren
 
 ```powershell
-python.bat -m pip install -e C:\rl_walk\booster_train\source\booster_train
+.\python.bat -m pip install -e C:\Users\<USER>\rl_walk\booster_train\source\booster_train
 ```
 
 Test:
 ```powershell
 python.bat -c "import booster_train; print('booster_train OK')"
 ```
+
+### Achtung ⚠️
+Bei diesem smoke test kann es passieren dass der Fehler: 
+```python
+ModuleNotFoundError: No module named 'omni.physics'
+```
+auftritt. Das ist normal und soweit in Ordnung solange der Test
+
+```powershell
+python.bat -c "import omni; print('omni OK')"
+```
+Erfolgreich ist denn dann ist das omni Modul erfolgreich installiert. Denn um das `booster_train` Modul zu importieren muss zunächst das `omni` Modul importiert werden. Das passiert bei diesem smoke test jedoch nicht.
 
 ---
 
@@ -132,9 +144,9 @@ CSV → NPZ konvertieren mit bereitgestelltem Script.
 ### 8.3 Beispiel: Fight 001 (30 FPS)
 
 ```powershell
-cd C:\Users\<USER>\AppData\Local\ov\pkg\isaac_sim-5.0.0
+cd C:\Users\<USER>\AppData\Local\ov\pkg\isaac-sim
 
-python.bat C:\rl_walk\booster_train\scripts\csv_to_npz.py ^
+python.bat C:\Users\<USER>\rl_walk\booster_train\scripts\csv_to_npz.py ^
   --headless ^
   --input_file C:\rl_walk\booster_assets\motions\K1\k1_fight_001.csv ^
   --input_fps 30 ^
@@ -151,7 +163,7 @@ booster_assets/motions/K1/k1_fight_001.npz
 ## 9. Tasks auflisten
 
 ```powershell
-python.bat C:\rl_walk\booster_train\scripts\list_envs.py
+python.bat C:\Users\<USER>\rl_walk\booster_train\scripts\list_envs.py
 ```
 
 ---
@@ -159,11 +171,7 @@ python.bat C:\rl_walk\booster_train\scripts\list_envs.py
 ## 10. Training starten (Smoke Test)
 
 ```powershell
-python.bat C:\rl_walk\booster_train\scripts\rsl_rl\train.py ^
-  --task=Booster-K1-Fight_001-v0 ^
-  --num_envs=256 ^
-  --headless ^
-  --device cuda:0
+python.bat C:\Users\<USER>\rl_walk\booster_train\scripts\rsl_rl\train.py --task=Booster-K1-Fight_001-v0 --num_envs=256 --headless --device cuda:0
 ```
 
 ---

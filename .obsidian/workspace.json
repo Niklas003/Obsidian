@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4c779970f40315e0",
+        "id": "9c163ea44ab617ab",
         "type": "tabs",
         "children": [
           {
-            "id": "fb803601c9d70325",
+            "id": "82f70f464693eee0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 3/Natural Language Processing/Lecture_21_RAG_Obsidian.md",
-                "mode": "source",
+                "file": "Sem 3/Seminar - Maschinelles Lernen/BoosterRL_IsaacLab_Windows.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture_21_RAG_Obsidian"
+              "title": "BoosterRL_IsaacLab_Windows"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 417.5,
+    "collapsed": true
   },
   "right": {
     "id": "32bc89c4067ab4dc",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intro Embedded AI/VL3.md",
+                "file": "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise für VL3"
+              "title": "Rückverweise für RNN vs. Transformer"
             }
           },
           {
@@ -113,11 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Sem 3/Seminar - Maschinelles Lernen/BoosterRL_IsaacLab_Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links"
+              "title": "Ausgehende Links von BoosterRL_IsaacLab_Windows öffnen"
             }
           },
           {
@@ -165,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 465.5
+    "width": 621.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,54 +181,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb803601c9d70325",
+  "active": "990aa18b3b89bc78",
   "lastOpenFiles": [
-    "Sem 3/Natural Language Processing/Lecture_20_Advanced_Prompting_Obsidian.md",
-    "Sem 3/Natural Language Processing/Lecture 2.md",
-    "Sem 3/Natural Language Processing/Lecture_21_RAG_Obsidian.md",
-    "Sem 3/Natural Language Processing/Lecture 21 - Retrieval - Augmented Generation.md",
-    "Sem 3/Natural Language Processing/Lecture 1.md",
-    "Sem 3/Intro Embedded AI/VL - 14.01.md",
-    "Sem 3/Intro Embedded AI/VL - 07.01.md",
-    "Sem 3/Seminar - Maschinelles Lernen/BoosterRL_IsaacLab_Windows_FINAL.md",
-    "conflict-files-obsidian-git.md",
-    "Sem 3/Seminar - Maschinelles Lernen",
-    "Sem 3/Natural Language Processing/Lecture_19_Instruction_Tuning_RLHF_Obsidian.md",
-    "Sem 3/Seminar Machine Learning in Robotics/VL 2.md",
-    "Sem 3/Seminar Machine Learning in Robotics/VL 1.md",
-    "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
-    "Sem 3/Pasted image 20260106180219.png",
-    "Sem 3/Natural Language Processing/Fragen/Embeddings vs. Hidden Dimension.md",
     "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
-    "Sem 3/Natural Language Processing/Fragen/Hidden Dimension.md",
+    "Sem 3/Natural Language Processing/Lecture_02_Model_Training_Basics_Obsidian.md",
+    "Sem 3/Natural Language Processing/Lecture 1.md",
+    "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
     "Sem 3/Natural Language Processing/Fragen/Warum Normalisieren.md",
+    "Sem 3/Natural Language Processing/Fragen/Embeddings vs. Hidden Dimension.md",
+    "Sem 3/Natural Language Processing/Fragen/Hidden Dimension.md",
+    "Sem 3/Natural Language Processing/Lecture 4_Part_of_Speech_Tagging_Notes.md",
+    "Sem 3/Natural Language Processing/Lecture 2.md",
+    "Sem 3/Natural Language Processing/Lecture 6 – Recurrent Neural Networks (RNNs).md",
+    "Sem 3/Natural Language Processing/Lecture 5_Classic_NLP_Pipeline_Notes.md",
+    "Sem 3/Natural Language Processing/Lecture 7.md",
+    "Sem 3/Natural Language Processing/Lecture 9.md",
+    "Sem 3/Natural Language Processing/Lecture 3 – Word Representations.md",
+    "Sem 3/Natural Language Processing/Self_Attention_Obsidian_Notes.md",
+    "Sem 3/Natural Language Processing/Lecture 3.md",
+    "Sem 3/Natural Language Processing/Unbenannt.base",
+    "Sem 3/Natural Language Processing/Lecture_20_Advanced_Prompting_Obsidian.md",
+    "Sem 3/Natural Language Processing/Lecture_21_RAG_Obsidian.md",
+    "Sem 3/Seminar Machine Learning in Robotics/VL 1.md",
+    "Sem 3/Seminar Machine Learning in Robotics/VL 2.md",
+    "Sem 3/Seminar - Maschinelles Lernen/BoosterRL_IsaacLab_Windows.md",
+    "Sem 3/Intro Embedded AI/VL - 14.01.md",
+    "Sem 3/Seminar - Maschinelles Lernen/IsaacLab_Windows_Setup.md",
+    "Sem 3/Seminar - Maschinelles Lernen/BoosterRL_Windows_IsaacLab_Setup.md",
+    "Sem 3/Natural Language Processing/Lecture_19_Instruction_Tuning_RLHF_Obsidian.md",
+    "Sem 3/Seminar - Maschinelles Lernen",
+    "Sem 3/Intro Embedded AI/VL - 07.01.md",
+    "Sem 3/Pasted image 20260106180219.png",
     "Sem 3/Natural Language Processing/Fragen",
     "Sem 3/Q15-1016.pdf",
     "Sem 3",
-    "Sem 3/Natural Language Processing/Lecture_18_LLMs_and_In_Context_Learning_Expanded.md",
     "Sem 3/Pasted image 20260106122115.png",
     "Sem 3/Pasted image 20260106114830.png",
     "Sem 3/Pasted image 20260106114449.png",
     "Sem 3/Pasted image 20260106113736.png",
-    "Sem 3/Natural Language Processing/Lecture 16.md",
     "Sem 3/Pasted image 20260106112330.png",
-    "Natural Language Processing/Lecture_18_LLMs_and_In_Context_Learning.md",
-    "Sem 3/Natural Language Processing/Lecture 12 — Transformer Language Models (with extra annotations).md",
-    "Sem 3/Intro Embedded AI/Evolution - Cognition from scratch.md",
-    "Sem 3/Intro Embedded AI/VL4.md",
     "Sem 3/Lecture 12_ Transformer Language Models - no Notes.pdf",
     "Sem 3/Pasted image 20251205115731.png",
     "Sem 3/Pasted image 20251205115348.png",
-    "Sem 3/Natural Language Processing/Lecture 3.md",
-    "Sem 3/Natural Language Processing/Lecture 9.md",
     "Lecture 9_ The Transformer - no Notes.pdf",
-    "Sem 3/Intro Embedded AI/VL3.md",
     "Sem 3/Pasted image 20251112114159.png",
     "Sem 3/Pasted image 20251028112424.png",
     "VL 2",
     "Sem 3/Intro Embedded AI",
     "Sem 3/Seminar Machine Learning in Robotics",
-    "Sem 3/Natural Language Processing",
     "Unbenannt.canvas"
   ]
 }
