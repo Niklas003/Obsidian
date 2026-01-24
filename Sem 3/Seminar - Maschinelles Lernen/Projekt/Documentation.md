@@ -63,4 +63,11 @@ python.bat C:\Users\<USER>\rl_walk\booster_train\scripts\rsl_rl\train.py --task=
 ![[Pasted image 20260124141509.png]]
 
 - das momentan ab vielversprechendste Training
--  
+- GPU stats während des Trainings:
+ ![[Pasted image 20260124151621.png]]
+
+# Play
+
+![[Pasted image 20260124161335.png]]
+
+Play in Isaac Sim
