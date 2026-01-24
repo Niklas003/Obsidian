@@ -176,7 +176,20 @@ python.bat C:\Users\<USER>\rl_walk\booster_train\scripts\rsl_rl\train.py --task=
 
 ---
 
-## 11. Häufige Fehler & Fixes
+## 11.  Training stoppen und Checkpoint path
+
+Das Training kann ganz normal mit `ctrl + c` gestoppt werden
+
+Die Logs/Checkpoints zum Training findet sich im `rl_walk` logs
+
+```
+C:\Users\<USER>\rl_walk\isaac_lab\_isaac_sim\logs\rsl_rl
+```
+
+Die neueste `.pt` Datei ist unser Checkpoint den wir haben wollen.
+
+---
+## 12. Häufige Fehler & Fixes
 
 - `ModuleNotFoundError: omni` → nicht `python.bat` benutzt
 - `ModuleNotFoundError: booster_assets` → nicht installiert
@@ -184,7 +197,7 @@ python.bat C:\Users\<USER>\rl_walk\booster_train\scripts\rsl_rl\train.py --task=
 
 ---
 
-## 12. Fazit
+## 13. Fazit
 
 Dieses Setup ist:
 - Windows-only
