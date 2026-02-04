@@ -8,12 +8,10 @@ Ho to learn params (weights) that forward path makes sense?
 -> Almost no NLP more model training
 
 - Use 1 Layer Network
-- get inituition of main ideas
 
 - Training Data in form of labeld data (pos/neg labeld)
 - Use Train Data to learn weights
 - > Goal to "fit" the model at least for this data points
-
 ## SGD Stochastic gradient descend
 
 - random init of all params in the network
@@ -21,6 +19,12 @@ Ho to learn params (weights) that forward path makes sense?
 - compute changes that need to make 
 - do the change 
 - repeat
+
+Do this in two steps:
+1. Compute the "Ableitung" of the loss in respect to the parameters to see the magnitude 
+2. Adjust the parameters
+
+>The first step computes the gradient of the loss function at the current position. This determines the uphill directionof the loss function. The second step moves a small distance α downhill (hence the negative sign).The parameter α may befixed (in which case,we call it a learning rate), or we may perform a line search where we try several valuesofαtofindtheonethatmostdecreasestheloss. Attheminimumof theloss function, thesurfacemustbeflat(orwecouldimprove furtherbygoingdownhill).Hence,thegradientwillbezero,andtheparameterswillstop changing. Inpractice,wemonitorthegradientmagnitudeandterminatethealgorithm whenitbecomestoosmall.
 
 backward pass:
 - check how much does every weight contribute to an error

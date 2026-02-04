@@ -345,14 +345,15 @@ This helps distinguish between subtle sentiment differences.
 
 ## 🧩 Summary
 
-| Concept | Description |
-|----------|--------------|
-| **One-hot encoding** | Simple, orthogonal, no semantics |
-| **WordNet** | Manual lexical knowledge, not scalable |
-| **Distributional semantics** | Meaning from context |
-| **PMI + SVD** | Count-based latent semantics |
-| **Word2Vec** | Prediction-based word embeddings |
-| **FastText** | Efficient classifier using embeddings + pooling + n-grams |
+| Concept                      | Description                                               |
+| ---------------------------- | --------------------------------------------------------- |
+| **One-hot encoding**         | Simple, orthogonal, no semantics                          |
+| **WordNet**                  | Manual lexical knowledge, not scalable                    |
+| **Distributional semantics** | Meaning from context                                      |
+| **PMI + SVD**                | Count-based latent semantics                              |
+| **Word2Vec**                 | Prediction-based word embeddings                          |
+| **FastText**                 | Efficient classifier using embeddings + pooling + n-grams |
+|                              |                                                           |
 
 **Takeaway:**  
 Word representations are the foundation of NLP — they allow models to capture **meaning**, **similarity**, and **context** in a mathematically useful form.

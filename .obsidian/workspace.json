@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "4c779970f40315e0",
+        "id": "67ba5aa0c136074a",
         "type": "tabs",
         "children": [
           {
-            "id": "fb803601c9d70325",
+            "id": "b8e53351ae5b982c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 3/Natural Language Processing/Lecture_21_RAG_Obsidian.md",
+                "file": "Sem 3/Natural Language Processing/Exam Preparation/Klausuraufgaben_Musterloesungen_NLP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture_21_RAG_Obsidian"
+              "title": "Klausuraufgaben_Musterloesungen_NLP"
+            }
+          },
+          {
+            "id": "0a6c423b7ad20c20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem 3/Natural Language Processing/Lecture 5 - Classic_NLP_Pipeline_Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 5 - Classic_NLP_Pipeline_Notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +55,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 366.5
   },
   "right": {
     "id": "32bc89c4067ab4dc",
@@ -179,54 +194,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb803601c9d70325",
+  "active": "0a6c423b7ad20c20",
   "lastOpenFiles": [
-    "Sem 3/Natural Language Processing/Lecture_20_Advanced_Prompting_Obsidian.md",
+    "Sem 3/Natural Language Processing/Lecture 4 - Part_of_Speech_Tagging_Notes.md",
+    "Sem 3/Natural Language Processing/Lecture 2 - Model Training Basics EXTENDED.md",
     "Sem 3/Natural Language Processing/Lecture 2.md",
-    "Sem 3/Natural Language Processing/Lecture_21_RAG_Obsidian.md",
-    "Sem 3/Natural Language Processing/Lecture 21 - Retrieval - Augmented Generation.md",
+    "Sem 3/Natural Language Processing/Lecture 3.md",
+    "Sem 3/Natural Language Processing/Lecture 3 – Word Representations.md",
+    "Sem 3/Natural Language Processing/Exam Preparation/Hyperparameter_Spickzettel_Vergleich.md",
+    "Sem 3/Natural Language Processing/Exam Preparation/Klausuraufgaben_Musterloesungen_NLP.md",
+    "Sem 3/Natural Language Processing/Exam Preparation/Pseudocode_Training_Lueckenblatt.md",
+    "Sem 3/Natural Language Processing/Exam Preparation/NLP_Pseudocode_Klausur_Obsidian.md",
+    "Sem 3/Natural Language Processing/Exam Preparation",
     "Sem 3/Natural Language Processing/Lecture 1.md",
+    "Sem 3/Natural Language Processing/Prüfungsvorbereitung.md",
+    "Sem 3/Natural Language Processing/Exam_Preparation_NLP_Obsidian.md",
+    "Sem 3/Seminar - Maschinelles Lernen/Formal.md",
+    "Sem 3/Intro Embedded AI/VL - 21.01..md",
+    "Pasted image 20260203144059.png",
+    "Sem 3/Intro Embedded AI/VL4.md",
+    "Sem 3/Intro Embedded AI/VL3.md",
+    "Sem 3/Seminar Machine Learning in Robotics/Aritficial Evolution.md",
+    "Sem 3/Seminar Machine Learning in Robotics/VL 1.md",
+    "Sem 3/Intro Embedded AI/VL 5.md",
+    "Sem 3/Intro Embedded AI/VL 1.md",
     "Sem 3/Intro Embedded AI/VL - 14.01.md",
     "Sem 3/Intro Embedded AI/VL - 07.01.md",
-    "Sem 3/Seminar - Maschinelles Lernen/BoosterRL_IsaacLab_Windows_FINAL.md",
-    "conflict-files-obsidian-git.md",
+    "Kognitive Robotik/Wahrnehmung.md",
+    "Sem 3/Natural Language Processing/NLP_Pseudocode_Klausur_Obsidian.md",
+    "Sem 3/Natural Language Processing/Lecture 9 - The Transformer.md",
+    "Sem 3/Natural Language Processing/Lecture 16 - Information Extraction.md",
     "Sem 3/Seminar - Maschinelles Lernen",
-    "Sem 3/Natural Language Processing/Lecture_19_Instruction_Tuning_RLHF_Obsidian.md",
-    "Sem 3/Seminar Machine Learning in Robotics/VL 2.md",
-    "Sem 3/Seminar Machine Learning in Robotics/VL 1.md",
-    "Sem 3/Natural Language Processing/Fragen/Encoder Decoder Transformer.md",
     "Sem 3/Pasted image 20260106180219.png",
-    "Sem 3/Natural Language Processing/Fragen/Embeddings vs. Hidden Dimension.md",
-    "Sem 3/Natural Language Processing/Fragen/RNN vs. Transformer.md",
-    "Sem 3/Natural Language Processing/Fragen/Hidden Dimension.md",
-    "Sem 3/Natural Language Processing/Fragen/Warum Normalisieren.md",
     "Sem 3/Natural Language Processing/Fragen",
     "Sem 3/Q15-1016.pdf",
     "Sem 3",
-    "Sem 3/Natural Language Processing/Lecture_18_LLMs_and_In_Context_Learning_Expanded.md",
     "Sem 3/Pasted image 20260106122115.png",
     "Sem 3/Pasted image 20260106114830.png",
     "Sem 3/Pasted image 20260106114449.png",
     "Sem 3/Pasted image 20260106113736.png",
-    "Sem 3/Natural Language Processing/Lecture 16.md",
     "Sem 3/Pasted image 20260106112330.png",
-    "Natural Language Processing/Lecture_18_LLMs_and_In_Context_Learning.md",
-    "Sem 3/Natural Language Processing/Lecture 12 — Transformer Language Models (with extra annotations).md",
-    "Sem 3/Intro Embedded AI/Evolution - Cognition from scratch.md",
-    "Sem 3/Intro Embedded AI/VL4.md",
     "Sem 3/Lecture 12_ Transformer Language Models - no Notes.pdf",
     "Sem 3/Pasted image 20251205115731.png",
     "Sem 3/Pasted image 20251205115348.png",
-    "Sem 3/Natural Language Processing/Lecture 3.md",
-    "Sem 3/Natural Language Processing/Lecture 9.md",
     "Lecture 9_ The Transformer - no Notes.pdf",
-    "Sem 3/Intro Embedded AI/VL3.md",
     "Sem 3/Pasted image 20251112114159.png",
-    "Sem 3/Pasted image 20251028112424.png",
     "VL 2",
     "Sem 3/Intro Embedded AI",
     "Sem 3/Seminar Machine Learning in Robotics",
-    "Sem 3/Natural Language Processing",
     "Unbenannt.canvas"
   ]
 }

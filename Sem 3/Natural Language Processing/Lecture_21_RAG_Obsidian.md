@@ -2,7 +2,6 @@
 #nlp #llm #rag #retrieval #generation #grounding
 
 > These notes explain **why RAG exists, how it works internally, where it fails, and how modern systems improve it**.  
-> Written for **Obsidian** with deep explanations, mental models, and exam focus.
 
 ---
 
@@ -117,7 +116,7 @@ Failures can occur at **R**, **A**, or **G**.
 
 ### Three Core Metrics
 1. Context relevance (retrieval quality)
-2. Groundedness / faithfulness
+2. Groundedness / faithfulness (Is the Geneation truthful)
 3. Answer relevance
 
 ### Tools
@@ -149,19 +148,19 @@ Is fragile.
 
 ## 11. Failure Modes
 
-### Retrieval Failures
+### Retrieval Failures (R Failures)
 - Lexical gap (exact matches fail)
 - Short queries vs long documents
-- Ignoring structure (tables, PDFs)
+- Ignoring structure (tables, PDFs, methods that extract text from documents could fail)
 
-### Augmentation Failures
+### Augmentation Failures (A Failures)
 - Lost-in-the-middle
 - Context overload
 - Bad chunking
 
-### Generation Failures
+### Generation Failures (G Failures)
 - Conflicting internal knowledge
-- Yes-man behavior
+- Yes-man behavior LLM's are trained to be helpful -> often will agree with user
 - Over-refusal
 
 ---

@@ -1,7 +1,6 @@
 ## Representation of words
 - one could use one hot encoding -> bad bc. it does not scale good (0 semantics)
-- never enoutg training data to handle all possible words
-
+- never enough training data to handle all possible words
 ### Lexical Semantics
 
 - group words onto groups

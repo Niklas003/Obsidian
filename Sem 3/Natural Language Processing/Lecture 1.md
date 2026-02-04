@@ -70,9 +70,11 @@ after that: #activation
 	- and just transform into a scalar (Nummer) here activation func just identity function
 
 - Argmax function
+	- produces "one hot" highes value it is
 - Softmax function
-	- single label prediction problems
+	- multi label prediction
 - Sigmoid function
+	- good for binary label prediction
 	- might not produce "one hot" rather ,,multi-hot"
 
 Single Label Classification
