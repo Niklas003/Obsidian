@@ -1,0 +1,2 @@
+- Hebb rule (1947): neurons getting stronger by use
+- 

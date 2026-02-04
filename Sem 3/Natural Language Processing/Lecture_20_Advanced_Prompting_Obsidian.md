@@ -1,4 +1,4 @@
-# Lecture 20 – Advanced LLM Prompting Techniques
+
 #nlp #llm #prompting #in-context-learning #evaluation
 
 > Obsidian-ready notes explaining **how prompting replaces fine-tuning, why it is brittle, and how advanced prompting techniques mitigate this**.
